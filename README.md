@@ -106,9 +106,9 @@ TEST CASE 3: Cold Start Resilience (Empty / Unknown tags)
 ## 📐 Mathematical Framework
 
 ### 1. TF-IDF Weighting
-$$	ext{TF}(t, d) = rac{	ext{Count of term } t 	ext{ in document } d}{	ext{Total terms in document } d}$$
+$$\text{TF}(t, d) = \frac{\text{Count of term } t \text{ in document } d}{\text{Total terms in document } d}$$
 
-$$	ext{IDF}(t) = \log\left(rac{	ext{Total Documents}}{	ext{Documents containing term } t}ight)$$
+$$\text{IDF}(t) = \log\left(\frac{\text{Total Documents}}{\text{Documents containing term } t}\right)$$
 
 ### 2. Cosine Similarity Formula
 $$\cos(	heta) = rac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} = rac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \sqrt{\sum_{i=1}^{n} B_i^2}}$$
